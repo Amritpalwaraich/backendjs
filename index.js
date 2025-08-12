@@ -8,10 +8,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/twitter', (req, res) => {
-    res.send("your on twitter for working ")
-})
-
 app.listen(port, () => {
     console.log(`Example app listen on port ${port}`)
 })
