@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.send("Hello World!")
 })
 
+app.get("/login", (req, res) => {
+    res.send(" coding using chai channel ")
+})
+
 app.get('/twitter', (req, res) => {
     res.send("your on twitter for working ")
 })
